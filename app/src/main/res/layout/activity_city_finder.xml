@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityFinderActivity"
+    android:background="#242343">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/left">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/searchCity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_design"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Enter City Name"
+        android:textColorHint="#7C000000"
+        android:imeOptions="actionGo"
+        android:inputType="textAutoCorrect"
+        android:textColor="@color/black"
+        android:textSize="20sp"></EditText>
+
+    <RelativeLayout
+        android:id="@+id/seeTheWeather"
+        android:background="@drawable/button_design"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEE THE WEATHER"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="16sp">
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
